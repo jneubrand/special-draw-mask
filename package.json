@@ -1,0 +1,28 @@
+{
+  "name": "special-draw-mask",
+  "author": "Johannes Neubrand",
+  "version": "1.0.0",
+  "license": "MIT",
+  "files": [
+    "dist.zip"
+  ],
+  "repository": "jneubrand/special-draw-mask",
+  "keywords": [
+    "pebble-package"
+  ],
+  "dependencies": {
+    "special-draw": "^2.0.0"
+  },
+  "pebble": {
+    "projectType": "package",
+    "sdkVersion": "3",
+    "targetPlatforms": [
+      "aplite",
+      "basalt",
+      "chalk"
+    ],
+    "resources": {
+      "media": []
+    }
+  }
+}
